@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".DollarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/suhu1"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input2"
+        tools:ignore="ExtraText"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/n_suhu"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="numberDecimal"
+       />
+
+    <TextView
+        android:id="@+id/h_kfarenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="@string/hasil1" />
+
+    <TextView
+        android:id="@+id/h_kreamor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/hasil2"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/h_kelvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/hasil3"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/c_suhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cek2"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
+
