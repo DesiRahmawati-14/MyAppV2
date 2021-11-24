@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My App V2</string>
+    <string name="dolar">Konversi Dolar</string>
+    <string name="judul">My App V2</string>
+    <string name="suhu1">Konversi Suhu</string>
+    <string name="dolar1">Koverensi Dolar To Rupiah</string>
+    <string name="input">Input Nilai Rupiah</string>
+    <string name="input1">"Rp. "</string>
+    <string name="hasil">Hasil Koverensi $</string>
+    <string name="cek">Cek Dollar</string>
+    <string name="input2">Input Nilai Celcius</string>
+    <string name="input3">Celcius</string>
+    <string name="hasil1">Hasil Koverensi Fahrenheit</string>
+    <string name="hasil2">Hasil Koverensi Reamor</string>
+    <string name="hasil3">Hasil Koverensi Kelvin</string>
+    <string name="cek2">Cek suhu</string>
+</resources>
